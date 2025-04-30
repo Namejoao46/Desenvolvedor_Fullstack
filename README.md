@@ -38,5 +38,5 @@ Os arquivos serão organizados em diretórios correspondentes a cada tecnologia:
 ✅ Compartilhar aprendizados e boas práticas  
 ✅ Criar projetos reais baseados nas tecnologias estudadas  
 
-💡 **Acompanhe minha evolução e vamos aprender juntosremote add origin https://github.com/Namejoao46/Desenvolvedor_Fullstack.git* 🚀  
+💡 **Acompanhe minha evolução e vamos aprender juntos remote add origin https://github.com/Namejoao46/Desenvolvedor_Fullstack.git* 🚀  
 
