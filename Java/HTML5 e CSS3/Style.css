@@ -1,6 +1,6 @@
 /* DEFINE A COR DO FUNDO DA PÁGINA COMO AQUAMARINE */
 body{
-    background-color: aquamarine; /* ALTERA A COR DE FUNDO DA PÁGINA */
+    background-color: rgb(28, 13, 68); /* ALTERA A COR DE FUNDO DA PÁGINA */
     font-family: Verdana; /* DEFINE A FONTE DO TEXTO COMO VERDANA */
     max-width: 900px; /* DEFINE A LARGURA MÁXIMA DA PÁGINA COMO 900PX */
     margin: auto; /* CENTRALIZA O CONTEÚDO NA PÁGINA */
