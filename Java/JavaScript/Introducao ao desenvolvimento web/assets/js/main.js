@@ -28,7 +28,7 @@ function loadPokemonItens(offset, limit) {
             setTimeout(() => {
                 const pokemonHtml = convertPokemonToLi(pokemon);
                 pokemonList.innerHTML += pokemonHtml;
-            }, index * 500); // Adicionando atraso progressivo
+            }, index * 1500); 
         });
     });
 }
