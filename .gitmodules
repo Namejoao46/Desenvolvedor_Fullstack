@@ -1,0 +1,3 @@
+[submodule "Java/Projetos"]
+	path = Java/Projetos
+	url = https://github.com/Namejoao46/angular-blog.git
