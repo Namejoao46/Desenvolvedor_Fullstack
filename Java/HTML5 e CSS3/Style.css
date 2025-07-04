@@ -1,0 +1,71 @@
+/* DEFINE A COR DO FUNDO DA PÁGINA COMO AQUAMARINE */
+body{
+    background-color: rgb(28, 13, 68); /* ALTERA A COR DE FUNDO DA PÁGINA */
+    font-family: Verdana; /* DEFINE A FONTE DO TEXTO COMO VERDANA */
+    max-width: 900px; /* DEFINE A LARGURA MÁXIMA DA PÁGINA COMO 900PX */
+    margin: auto; /* CENTRALIZA O CONTEÚDO NA PÁGINA */
+}
+
+/* ESTILIZA ELEMENTOS COM A CLASSE .photo */
+.photo{
+    border: 1px solid #505050; /* ADICIONA UMA BORDA SÓLIDA DE 1PX NA COR #505050 */
+    border-radius: 50%; /* TORNA A IMAGEM REDONDA */
+}
+
+/* ALTERA A COR DO TEXTO PARA AZUL NOS ELEMENTOS COM OS SELETORES #title, .subtitulo E .Post_title */
+#title, .subtitulo, .Post_title {
+    color: blue; /* ALTERA A COR DO TEXTO PARA AZUL */
+}
+
+/* ESTILIZA O TÍTULO PRINCIPAL */
+#title{
+    font-size: 40px; /* DEFINE O TAMANHO DA FONTE COMO 40PX */
+    text-transform: uppercase; /* TRANSFORMA TODO O TEXTO EM LETRAS MAIÚSCULAS */
+}
+
+/* ESTILIZA LINKS */
+a{
+    text-decoration: line-through; /* ADICIONA UM TRAÇO SOBRE O TEXTO DO LINK */
+    color: #505050; /* DEFINE A COR DO TEXTO DO LINK */
+}
+
+/* ESTILIZA ELEMENTOS COM A CLASSE .Post_title */
+.Post_title{
+    font-size: 16px; /* DEFINE O TAMANHO DA FONTE COMO 16PX */
+    font-style: italic; /* DEIXA O TEXTO EM ITÁLICO */
+    margin: 0; /* REMOVE QUALQUER MARGEM SUPERIOR OU INFERIOR */
+    margin-bottom: 15px;
+}
+/* ESTILIZA ELEMENTOS COM A CLASSE .post */
+.post{
+    background-color: #fff; /* DEFINE A COR DE FUNDO COMO BRANCA */
+    padding: 10px; /* ADICIONA UM ESPAÇO INTERNO DE 10PX */
+    border: 3px solid #000; /* ADICIONA UMA BORDA DE 3PX PRETA */
+    margin-bottom: 15px; /* ADICIONA UM ESPAÇO DE 15PX ABAIXO DO ELEMENTO */
+    border-radius: 5px; /* ARREDONDA LEVEMENTE AS BORDAS */
+}
+
+/* ESTILIZA O CONTEÚDO DO POST */
+.post_content{
+    margin: 0; /* REMOVE QUALQUER MARGEM SUPERIOR OU INFERIOR */
+    margin-bottom: 15px; /* ADICIONA UM ESPAÇO DE 15PX ABAIXO DO ELEMENTO */
+    text-transform: capitalize; /* FAZ COM QUE A PRIMEIRA LETRA DE CADA PALAVRA SEJA MAIÚSCULA */
+    text-align: justify; /* ALINHA O TEXTO JUSTIFICADO */
+}
+
+/* ESTILIZA IMAGENS DENTRO DOS POSTS */
+.post_image{
+    margin-bottom: 15px; /* ADICIONA UM ESPAÇO DE 15PX ABAIXO DA IMAGEM */
+    width: 100%; /* DEFINE A LARGURA DA IMAGEM COMO 100% DO CONTAINER */
+}
+
+/* ESTILIZA A LISTA DE CONTATOS */
+.contacts_list{
+    list-style-type: none; /* REMOVE OS MARCADORES PADRÃO DA LISTA */
+    padding-left: 10px; /* ADICIONA UM ESPAÇO À ESQUERDA DA LISTA */
+}
+
+/* ESTILIZA OS LINKS DENTRO DA LISTA DE CONTATOS */
+.contacts_list li a {
+    text-decoration: none; /* REMOVE O SUBLINHADO PADRÃO DOS LINKS */
+}
